@@ -2,13 +2,12 @@
   "name": "game",
   "version": "1.0.0",
   "description": "My First React App Game",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
     "build": "parcel build index.html --public-url ./"
   },
-  "author": "Gaurav Mahur",
+  "author": "Gaurav Singh",
   "license": "ISC",
   "dependencies": {
     "parcel": "^2.9.3",
