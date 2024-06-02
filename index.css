@@ -48,10 +48,37 @@ table {
 	border-spacing: 0;
 }
 
+#start {
+    height: 100vh;
+    width: 100vw;
+}
+
+#tab {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px #4b6fe9;
+}
+
+#tab p {
+    width: 50%;
+    background-color: #ed7b7b;
+    color: black;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px #4b6fe9;
+    padding: 4vw 2vw;
+}
+
 #game {
     display: flex;
     justify-content: center;
     font-family: 'Croissant One', cursive;
+    height: 100vh;
+    width: 100vw;
 }
 #left {
     width: 20%;
@@ -75,8 +102,8 @@ table {
 
 #right {
     position: relative;
-    width: 1000px;
-    height: 738px;
+    width: 65%;
+    height: 100%;
     background-image: url('./Images/game2.jpg');
     background-size: 116% 100%;
 }

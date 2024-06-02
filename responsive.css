@@ -1,0 +1,8 @@
+@media (max-width:992px) {
+    #game {
+        display: none;
+    }
+    #tab {
+        display: flex;
+    }
+}
